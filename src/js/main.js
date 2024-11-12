@@ -26,15 +26,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 // debut scroll horisontal
 
-// gsap.to(".slider-container", {
-//   x: "-80%",
-//   duration: 2,
-//   scrollTrigger: {
-//     trigger: ".slider-mask",
-//     start: "top top",
-//     scrub: 1,
-//     pin: true,
-//   },
-// });
+gsap.to(".slider-container", {
+  x: "-85%",
+  duration: 2,
+  scrollTrigger: {
+    trigger: ".slider-mask",
+    start: "bottom bottom ",
+    scrub: 1,
+    pin: true,
+  },
+});
 
-//fin scroll horisonta
+// fin scroll horisonta
