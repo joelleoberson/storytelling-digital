@@ -1,0 +1,31 @@
+/* debut scroll horisontal */
+.slider-container {
+  display: inline-flex;
+  height: 100%;
+  gap: 10px;
+  border: 5px solid red;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slider-mask {
+  border: 5px solid blue;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.spacer {
+  height: 100vh;
+  background-color: lightpink;
+}
+
+.slider-item {
+  border: 5px solid #4caf50;
+  width: calc(100vw - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* fin scroll horisontal */
