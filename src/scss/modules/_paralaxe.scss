@@ -27,9 +27,33 @@
 
 /* debut paralaxe */
 
-.parallax-element img {
+// .parallax-element img {
+//   width: 100%;
+//   max-width: 100%;
+//   height: auto;
+//   min-width: 1280px;
+// }
+header {
+  position: relative;
   width: 100%;
-  max-width: 100%;
-  height: auto;
-  min-width: 1280px;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+}
+
+.title img {
+  width: 100%;
+}
+
+.parallax-container img {
+  width: 100%;
+}
+
+.paralaxe-sous-titre img {
+  position: absolute;
+  top: 40%;
+  width: 50%;
+  left: 25%;
 }
