@@ -36,6 +36,11 @@ h3 {
   flex-direction: row;
 }
 
+.book-a a:hover {
+  // background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .book {
   background-image: url(../img/wallpaper-vente.png);
   color: #fff;
@@ -73,3 +78,19 @@ h3 {
 .scroll-item img:hover {
   width: 270px;
 }
+
+.big-book {
+  width: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.blacksad-aquarelle {
+  width: 250px;
+}
+
+// .blacksad-aquarelle-box {
+//   // display: flex;
+//   // justify-content: center;
+//   // justify-content: space-around;
+// }

@@ -5,24 +5,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 // debut paralaxe
 
-// gsap
-//   .timeline({
-//     scrollTrigger: {
-//       trigger: ".parallax-container",
-//       start: "top top",
-//       scrub: 1,
-//       pin: true,
-//     },
-//   })
-//   .to(
-//     "#element-1",
-//     {
-//       top: "0%",
-//     },
-//     0
-//   );
-
-// fin paralaxe
+var tl = gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-container",
+      start: "top top",
+      end: "+=200%",
+      scrub: 1,
+      pin: true,
+    },
+  })
+  .from(
+    "#element-1",
+    {
+      bottom: "0", // À la fin, le haut de l'image est visible
+    },
+    0
+  );
 
 // debut scroll horisontal
 
@@ -32,6 +31,7 @@ gsap.to(".slider-container", {
   scrollTrigger: {
     trigger: ".slider-mask",
     start: "bottom bottom ",
+    end: "+=600%",
     scrub: 1,
     pin: true,
   },
