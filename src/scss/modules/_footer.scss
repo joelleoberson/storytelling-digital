@@ -1,0 +1,46 @@
+footer {
+  color: #fff;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 41px;
+}
+
+footer p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 27px;
+  padding-top: 27px;
+  padding-left: 40px;
+}
+
+.footer-link {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 27px;
+}
+
+footer a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-right {
+  text-align: center;
+  color: #6b6b6b;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+}
